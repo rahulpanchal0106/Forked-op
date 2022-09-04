@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 180px;
+    border-bottom: 1px solid var(--gray-900);
+}
+ header div strong{
+     font-family:  square pag, cursive;
+     font-size: 29px;
+     word-spacing: 5px;   /* DAR ESPAÇO NO MEU NOME */
+     color: purple;
+ }
+
+ header div span{
+     font-size: 22px;
+    
+ }
+
+  header div{             /*    toda a div  */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     line-height: 150%;
+ }
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul{
+    list-style: none;
+}
+
+ a{
+     text-decoration: none;
+     color: black
+ }
+
+ header nav ul {
+     display: flex;
+     gap: 20px;
+ }
