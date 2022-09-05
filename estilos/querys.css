@@ -1,0 +1,43 @@
+@media  screen and (max-width: 670px) {
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 7px;
+    }
+
+    main .apresentacao{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        max-width: 500px;
+        margin: auto;
+    }
+
+    main #zooro{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 30px ;
+    }
+    img{
+        background-image: url(../imagens/luffy.cell.jpg), url(../imagens/zoro.cell.jpg); 
+        background-repeat: no-repeat;
+        display: block;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 13px;
+        color: rgb(26, 241, 26);
+        padding: 5px;
+    }
+    p{
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .luffy{
+        color: rgba(170, 76, 76, 0.815);
+    }
+
+}

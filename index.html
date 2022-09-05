@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="apresentacao.css">
-    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/header.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/querys.css" media="screen and (max-width: 700px)">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <title>One Piece</title>
 </head>
 <body>
@@ -28,19 +29,25 @@
     <main>
         <section class="apresentacao">
             <article>
-                <div class="luffy">
-                    <h1>Olá me chamo Monkey D. Luffy</h1>
+                <div>
+                    <h1 class="luffy">Olá me chamo Monkey D. Luffy</h1>
                     <p>Nascido em East Blue, Monkey D. Luffy é um rapaz com um sonho bem ambicioso: desde criança, ele sonhava em ser pirata! Com sete anos de idade, ele conheceu o capitão pirata Shanks, seu maior ídolo!</p>
                 </div>
             </article>  
         <div class="luffy">
-             <img src="luffy.jpg" alt="Luffy" width="560px"> 
+             <picture>
+                <source media="(min-width:550px )" srcset="imagens/luffy.cell.jpg">
+                <img src="imagens/luffy-pequena.jpg" alt="Luffy"> 
+            </picture>
         </div> 
     </section>
 
-        <section class="apresentacao">
+        <section class="apresentacao" id="zooro">
             <div>
-                <img src="zoro.jpg" alt="zoro" width="550px">
+                <picture>
+                    <source class="zoro" srcset="imagens/zoro-pequena.jpg">
+                    <img src="imagens/zoro-pequena.jpg" alt="zoro">
+                </picture>
             </div>
             <article>
                 <div class="zoro">
