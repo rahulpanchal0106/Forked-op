@@ -35,7 +35,6 @@ main .apresentacao {
     align-items: center;
     justify-content: center;
     max-width: 1000px;
-    /* background-color: #22B8F8; */
 }
 
 main {
@@ -70,7 +69,10 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    /* text-indent: 5px; */
+}
+
+a:hover{
+    color: #00b5d8;
 }
 
 

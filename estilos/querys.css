@@ -6,12 +6,16 @@
         padding: 7px;
     }
 
+    main{
+        margin-top: 50px;
+    }
+
     main .apresentacao{
         display: block;
         align-items: center;
         justify-content: center;
         max-width: 500px;
-        margin: auto;
+        /* margin: auto; */
     }
 
     main #zooro{
@@ -20,16 +24,15 @@
         padding-top: 30px ;
     }
     img{
-        background-image: url(../imagens/luffy.cell.jpg), url(../imagens/zoro.cell.jpg); 
+        background-image: url(../imagens/luffy-pequeno.webp), url(../imagens/zoro.cell.jpg); 
         background-repeat: no-repeat;
         display: block;
     }
 
     h1{
         text-align: center;
-        font-size: 13px;
-        color: rgb(26, 241, 26);
         padding: 5px;
+        /* font-size: 2.3em; */
     }
     p{
         text-align: center;
@@ -38,6 +41,17 @@
 
     .luffy{
         color: rgba(170, 76, 76, 0.815);
+        font-size: 2.3em;
+    }
+
+    .zoro{
+        color: rgb(26, 241, 26);
+        font-size: 2.3em;
+    }
+
+    .nani{
+        color: tomato;
+        font-size: 2.3em;
     }
 
 }
