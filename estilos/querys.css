@@ -24,7 +24,7 @@
         padding-top: 30px ;
     }
     img{
-        background-image: url(../imagens/luffy-pequeno.webp), url(../imagens/zoro.cell.jpg); 
+        background-image: url(../imagens/luffy-pequeno.webp), url(../imagens/zoro.cell.jpg), url(../imagens/robin-pequena.jpg); 
         background-repeat: no-repeat;
         display: block;
     }
