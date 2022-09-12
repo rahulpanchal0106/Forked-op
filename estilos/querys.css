@@ -1,56 +1,100 @@
-@media  screen and (max-width: 670px) {
+@media  screen and (max-width: 700px) {
+
+    body{
+        background-color: rgb(245, 236, 236);
+    }
 
     header{
         display: flex;
         justify-content: space-between;
-        padding: 7px;
+        padding: 8px;
     }
 
     main{
         margin-top: 50px;
+        /* background-color: rgb(202, 202, 255); */
     }
 
     main .apresentacao{
         display: block;
         align-items: center;
+        text-align: center;
         justify-content: center;
-        max-width: 500px;
+        max-width: 400px;
         /* margin: auto; */
     }
 
-    main #zooro{
+    main #zoro, #robin, #chopper, #franky{
         display: flex;
         flex-direction: column-reverse;
         padding-top: 30px ;
     }
-    img{
+    /* img{
         background-image: url(../imagens/luffy-pequeno.webp), url(../imagens/zoro.cell.jpg), url(../imagens/robin-pequena.jpg); 
         background-repeat: no-repeat;
         display: block;
-    }
+    } */
 
     h1{
         text-align: center;
         padding: 5px;
-        /* font-size: 2.3em; */
+        font-size: 2.3em;
     }
-    p{
+
+    article p{
         text-align: center;
-        font-size: 1em;
+        font-size: 2em;
+        text-align: center;
+        line-height: 1.5em;
+        margin: 15px 0px 15px 0px;
+    }
+
+    div{
+        width: 350px;
+        /* align-items: center; */
     }
 
     .luffy{
-        color: rgba(170, 76, 76, 0.815);
+        /* color: rgba(170, 76, 76, 0.815); */
         font-size: 2.3em;
     }
 
     .zoro{
-        color: rgb(26, 241, 26);
+        /* color: rgb(26, 241, 26); */
         font-size: 2.3em;
     }
 
     .nani{
-        color: tomato;
+        /* color: tomato; */
+        font-size: 2.3em;
+    }
+    .robin{
+        /* color: tomato; */
+        font-size: 2.3em;
+    }
+
+    .chopper{
+        /* color: tomato; */
+        font-size: 2.3em;
+    }
+
+    .usopp{
+        /* color: tomato; */
+        font-size: 2.3em;
+    }
+
+    .sanji{
+        /* color: tomato; */
+        font-size: 2.3em;
+    }
+
+    .franky{
+        /* color: tomato; */
+        font-size: 2.3em;
+    }
+
+    .brook{
+        /* color: tomato; */
         font-size: 2.3em;
     }
 
