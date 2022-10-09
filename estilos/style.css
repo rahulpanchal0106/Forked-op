@@ -86,4 +86,14 @@ div{
     width: 500px;
 }
 
+/* .anime{
+    margin-top: 50px;
+} */
+
+iframe{
+    display: block;
+    width: 560px;
+    margin-bottom: 50px;
+
+}
 
