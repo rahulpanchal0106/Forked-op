@@ -1,0 +1,53 @@
+@media  screen and (max-width: 700px) {
+
+    body{
+        background-color: rgb(49, 48, 48);
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 8px;
+    }
+
+    main{
+        margin-top: 50px;
+    }
+
+    main .apresentacao{
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        max-width: 400px;
+       
+    }
+
+    main #zoro, #robin, #chopper, #franky{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 30px ;
+    }
+
+    h1{
+        text-align: center;
+        padding: 5px;
+        font-size: 2.3em;
+    }
+
+    article p{
+        text-align: center;
+        font-size: 2em;
+        text-align: center;
+        line-height: 1.5em;
+        margin: 15px 0px 15px 0px;
+    }
+
+    div{
+        width: 300px;
+    }
+
+    .person{
+        font-size: 2em;
+    }
+}
