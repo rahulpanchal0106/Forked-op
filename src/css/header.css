@@ -9,11 +9,12 @@ header{
      font-family:  square pag, cursive;
      font-size: 29px;
      word-spacing: 5px;   /* DAR ESPAÇO NO NOME */
-     color: purple;
+     color: white;
  }
 
  header div span{
      font-size: 22px;
+     color: white;
     
  }
 
@@ -25,6 +26,7 @@ header{
  }
 
 li{
+  font-size: 19px;
     display: list-item;
     text-align: -webkit-match-parent;
 }
@@ -46,7 +48,6 @@ ul{
  .navbar li {
     position: relative;
     float: left;
-    /* border-right: 1px solid #c0c0c0; */
   }
   
   .navbar li a:hover {
