@@ -7,11 +7,20 @@
     header{
         display: flex;
         justify-content: space-between;
-        padding: 8px;
+        padding: 7px;
+    }
+
+    .container{
+        margin-bottom: 30px;
+        font-size: 14px;
+        text-align: center;
     }
 
     main{
-        margin-top: 50px;
+        display: flex;
+        margin-top: 30px;
+        text-align: center;
+        align-items: center;
     }
 
     main .apresentacao{
@@ -49,5 +58,15 @@
 
     .person{
         font-size: 2em;
+    }
+
+    .foto{
+        display: flex;
+        align-items: center;
+    }
+
+    img{
+        width: 300px;
+        align-items: center;
     }
 }
